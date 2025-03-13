@@ -34,7 +34,7 @@ meta:
 logo:
   images:
     nn-favicon:
-      path: 'https://avatars.githubusercontent.com/u/129066790?s=200&v=4'
+      path: 'https://raw.githubusercontent.com/NovoNordisk-OpenSource/.github/main/profile/logo_nn.png'
       alt: 'NN favicon in true blue'
     nn-logo-blue:
       path: 'https://raw.githubusercontent.com/NovoNordisk-OpenSource/.github/main/profile/logo_nn.png'
