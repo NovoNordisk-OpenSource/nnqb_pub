@@ -1,0 +1,156 @@
+---
+# Copyright (C) 2025 Novo Nordisk A/S
+# file: _brand.yaml
+# author: DMMK
+
+# Quarto brand for Novo Nordisk A/S
+# Defines base theme with corporate fonts, colors, etc
+
+meta:
+  name:
+    full: 'Novo Nordisk A/S'
+    short: 'NN'
+  link:
+    home: 'https://www.novonordisk.com/'
+    # docs:
+    # github:
+    # bluesky:
+    twitter: 'https://twitter.com/novonordisk/'
+    linkedin: 'https://www.linkedin.com/company/2227/'
+    facebook: 'https://www.facebook.com/novonordisk/'
+  description: |
+    We are a global healthcare company, founded in 1923 and headquartered just
+    outside Copenhagen, Denmark.
+
+    Our purpose is to drive change to defeat serious chronic diseases, built
+    upon our heritage in diabetes. We do so by pioneering scientific
+    breakthroughs, expanding access to our medicines and working to prevent and
+    ultimately cure the diseases we treat.
+
+    We employ more than 69,000 people in 80 offices around the world, and market
+    our products in 170 countries.
+  founded: 1923
+
+logo:
+  images:
+    nn-favicon:
+      path: 'https://avatars.githubusercontent.com/u/129066790?s=200&v=4'
+      alt: 'NN favicon in true blue'
+    nn-logo-blue:
+      path: >-
+        'https://github.com/NovoNordisk-OpenSource/.github/raw/main/profile/
+        logo_nn.png?raw=true'
+      alt: 'NN logo in true blue'
+  small: 'nn-favicon'
+  medium:
+    light: 'nn-logo-blue'
+    dark: 'nn-favicon'
+
+color:
+  palette:
+    # https://corporatedesignmanual.novonordisk.com/colours.html
+    # primary
+    true-blue: '#001965'
+    snow-white: '#FFFFFF'
+    # secondary
+    light-blue: '#3B97DE'
+    light-blue15: '#E2F0FA'  # 15% tint
+    light-blue40: '#B1D5F2'  # 40% tint
+    sea-blue: '#005AD2'
+    sea-blue15: '#D9E6F8'
+    sea-blue40: '#99BDED'
+    ocean-green: '#2A918B'
+    ocean-green15: '#DFEFEE'
+    ocean-green40: '#AAD3D1'
+    rose-pink: '#EEA7BF'
+    rose-pink15: '#FCF2F5'
+    rose-pink40: '#F8DCE5'
+    granite-grey: '#939AA7'
+    granite-grey15: '#EFF0F2'
+    granite-grey40: '#D4D7DC'
+    sand-grey: '#CCC5BD'
+    sand-grey15: '#F7F6F5'
+    sand-grey40: '#EBE8E5'
+    # spot colours
+    lava-red: '#E6553F'
+    golden-yellow: '#EAAB00'
+    forest-green: '#3F9C35'
+    # common color name aliases for custom colors, see
+    # https://posit-dev.github.io/brand-yml/brand/color.html#palette
+    # https://getbootstrap.com/docs/5.0/customize/color/
+    blue: 'true-blue'
+    pink: 'rose-pink'
+    red: 'lava-red'
+    yellow: 'golden-yellow'
+    green: 'ocean-green'
+    teal: 'ocean-green40'
+    cyan: 'light-blue'
+    gray: 'sand-grey40'
+    white: 'snow-white'
+  # https://posit-dev.github.io/brand-yml/brand/color.html#theme-colors
+  foreground: 'true-blue'
+  background: 'snow-white'
+  primary: 'true-blue'
+  secondary: 'light-blue15'
+  tertiary: 'light-blue40'
+  success: 'ocean-green'
+  warning: 'golden-yellow'
+  danger: 'lava-red'
+  light: 'snow-white'
+  dark: 'true-blue'
+
+typography:
+  # https://corporatedesignmanual.novonordisk.com/typography.html
+  fonts:
+    # - family: 'Apis'
+    # - family: Arial
+    - family: 'Noto Sans'
+      source: 'google'
+    - family: 'Fira Code'
+      source: 'bunny'
+  base:
+    family: 'Noto Sans'
+    # size:
+    # line-height:
+    # weight:
+  headings:
+    family: 'Noto Sans'
+    # weight:
+    # style:
+    # line-height:
+    color: 'true-blue'
+  monospace:
+    family: 'Fira Code'
+    # size:
+    # weight:
+  monospace-block:
+    family: 'Fira Code'
+    # size:
+    # weight:
+    # line-height:
+    color: 'true-blue'
+    background-color: 'sand-grey40'
+  monospace-inline:
+    family: 'Fira Code'
+    # size:
+    # weight:
+    color: 'true-blue'
+    background-color: 'sand-grey40'
+  link:
+    # weight:
+    color: 'sea-blue'
+    # background-color:
+    decoration: 'underline'
+
+defaults:
+  bootstrap:
+    # https://getbootstrap.com/docs/5.0/customize/options/
+    defaults:
+      enable-shadows: true
+      link-decoration: 'underline'
+  quarto:
+    format:
+      html:
+      revealjs:
+  shiny:
+...
